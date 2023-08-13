@@ -17,3 +17,9 @@
 # 3- Yönlendirme Operatörleri - 2
 - `>>` => Çıktıları dosyaların sonuna yazdırmak için kullanılır.
 - Dosyanın içeriğini değiştirmez sonuna ekleme yapar.
+
+# 4-Pipe Kullanımı
+- `|` => Terminal çıktılarını farklı bir programa girdi olarak vermek için kullanılır.
+- `wc` => kaç satır kaç kelime olduğunu getirir.
+- `grep` => arama yapmamızı sağlar.
+- `head` => baştan satırları getirir.
