@@ -8,3 +8,7 @@
   * `*`  => Bir veya birden fazla karakterin yerine geçebilecek bir joker karakterdir.
   * `?`  => Yanlızca bir karakterin yerine geçebilecek bir joker karakteridir.
   * `[]` => Yerine geçeceği karakterleri küme şeklinde belirten bir wildcard operatörüdür.
+
+# 2- Yönlendirme Operatörleri - 1
+- Komutların girdi ve çıktılarını yönlendirmemizi sağlar.
+- `>` sembolü bir programın bir komutun çıktısını başka bir dosyaya yazmamızı sağlar.
