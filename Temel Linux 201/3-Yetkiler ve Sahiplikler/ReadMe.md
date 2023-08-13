@@ -30,3 +30,14 @@
 - `sudo chown gelecegiyazanlar dosya1` => dosyanın sahibini böyle değiştirebiliriz.
 - 
 - `sudo chgrp gelecegiyazanlar dosya4` => dosyanın grubunu böyle değiştirebiliriz.
+
+# 5-Toplu Sahiplik Değişiklikleri
+- Bir dizinin sahipliğini değiştirirken içindeki dosyaların ve dizinlerin de sahiplikleri değişmez. Eğer değiştirmek istersek `sudo chown -R `
+
+- `R`(recursive) : bir dizinin sahipliğini değiştirirken içinde bulunan dosyaların ve dizinlerin de sahipliklerini değiştirmemize yarar.
+
+`sudo chown -R gelecegiyazanlar klasor1` => klasörü ve içindeki bütün dosyaların/dizinlerin sahipliklerini değiştirir.
+
+`sudo chgroup -R gelecegiyazanlar klasor1` => klasörü ve içindeki bütün dosyaların/dizinlerin gruplarını değiştirir.
+
+`sudo chown -R musa:musa *` => bu komut dizindeki tüm dosyaların ve dizinlerin onların içindekilerin her birinin sahipliklerini ve fruplarını aynı anda değiştirmeyi sağlar.
