@@ -44,3 +44,13 @@
 
 # 6-Dosya İzinlerini Listeleme
 <img src="1.png" width="auto">
+
+# 7-Dosya İzinlerinin Sayısal İfadesi
+<img src="2.png" width="auto">
+
+# 8-Dosya İzinlerini Değiştirme
+- `chmod` => dosyaların izinlerini arttırmamıza azaltmamıza ya da tamamen değiştirmemize yarayan bir komuttur.
+- `chmod +w dosya1` => dosyaya yazma imkanı verir.
+- `chmod -x klasor1`=> dosyadan çalıştırma yetkisini geri alır.
+- `chmod 555 *dosya*`=> içinde dosya kelimesi geçen tüm dosyalar okuma ve çalıştırma yetkisini tüm kullanıcılar için verir.
+- `chmod -R 770 klasor1`=> dosyanın okuma yazma çalıştırma yetkisini gruplar ve kullanıcı için klasör1'ın altında bulunan tüm dosyalar için verir.
