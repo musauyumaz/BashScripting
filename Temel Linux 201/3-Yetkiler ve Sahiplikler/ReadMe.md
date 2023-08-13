@@ -41,3 +41,6 @@
 `sudo chgroup -R gelecegiyazanlar klasor1` => klasörü ve içindeki bütün dosyaların/dizinlerin gruplarını değiştirir.
 
 `sudo chown -R musa:musa *` => bu komut dizindeki tüm dosyaların ve dizinlerin onların içindekilerin her birinin sahipliklerini ve fruplarını aynı anda değiştirmeyi sağlar.
+
+# 6-Dosya İzinlerini Listeleme
+<img src="1.png" width="auto">
