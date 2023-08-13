@@ -62,3 +62,6 @@
 
 # 7-Grup Silme
 - `sudo delgroup aile` => grubu siler.
+
+# 8-Kullanıcı Gruplarını Yönetme
+- `sudo usermod -a -G linuxsevenler ahmet` => kullanıcıyı gruba eklemeyi sağlar.
