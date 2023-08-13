@@ -48,3 +48,14 @@
 # 5-Kullanıcı Silme
 - `sudo deluser serhat` => kullanıcıyı siler.
 - `sudo userdel serhat` => kullanıcıyı siler.
+
+# 6-Grupları Listeleme ve Ekleme
+- `cat /etc/group` => grupları listeler
+- Bu klasör bir tablo şeklinde tutulur.
+  1. Sütun Grup isimleri bulunur.
+  2. Sütun eskiden Grup parolası bulunurdu.
+  3. Sütun Grup ID'si bulunur.
+  4. Sütun Bu grupta yer alan kullanıcılar , ile birbirlerinden ayrılarak listelenir.
+
+- `sudo addgroup linuxsevenler` => grup oluşturmak için kullanılır.
+- Bir kullanıcının birinci grubu passwd dosyasında ikincil grubu ise group dosyasında tutulur.
