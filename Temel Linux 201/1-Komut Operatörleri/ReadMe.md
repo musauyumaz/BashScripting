@@ -12,3 +12,8 @@
 # 2- Yönlendirme Operatörleri - 1
 - Komutların girdi ve çıktılarını yönlendirmemizi sağlar.
 - `>` sembolü bir programın bir komutun çıktısını başka bir dosyaya yazmamızı sağlar.
+- Dosyanın içeriğini tamamen değiştirir.
+
+# 3- Yönlendirme Operatörleri - 2
+- `>>` => Çıktıları dosyaların sonuna yazdırmak için kullanılır.
+- Dosyanın içeriğini değiştirmez sonuna ekleme yapar.
