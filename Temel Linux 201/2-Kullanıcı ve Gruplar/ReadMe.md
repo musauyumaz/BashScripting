@@ -39,3 +39,8 @@
   * Gerektiği zaman sadece sistem yönetici izinleriyle root yetkisi erişimleriyle sadece gerektiği zaman erişilebilir.
 
 - `sudo ` => sudo komutunu yazdıktan sora önüne yazacağımız herhangi bir komut bize yönetici yetkileriyle çalışmasına izin verecektir.
+
+# 4-Kullanıcı Ekleme
+- Linux'ta yeni bir kullanıcı eklemek silmek parola değiştirmek gibi kullanıcı işlemlerini yapmak için yönetici yetkilerine sahip olmamız gerekir.
+- `sudo useradd gelecegiyazanlar` => kullanıcı oluşturmak için kullanılır.
+- `sudo adduser serhat` => kullanıcı oluşturmak için kullanılır.
