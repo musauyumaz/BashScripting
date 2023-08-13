@@ -17,3 +17,11 @@
 - Tüm izinleri değiştirebilir.
 
 - Tüm sahiplikleri değiştirebilir.
+
+# 3-Dosya ve Dizinlerde Sahiplik Görüntüleme
+- Öncelikle bir dizin altındaki dosyaların sahipliklerini/gruplarını görüntülüyebilmek için o dosya ve dizinleri ayrıntılı bir biçimde listelememiz gerekir.
+
+- `ls -al` => ayrıntılı bir şekilde klasördeki dosyaları listeler
+- `ll` => `ls -al` komutunun kısaltılmış halidir.
+
+- 3.Sütunda o dosyanın sahibi kullnıcıyı 4.Sütunda ise o dosyanın sahibi grubu görebilirsiniz.
