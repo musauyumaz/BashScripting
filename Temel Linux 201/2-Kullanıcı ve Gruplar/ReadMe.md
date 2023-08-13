@@ -59,3 +59,6 @@
 
 - `sudo addgroup linuxsevenler` => grup oluşturmak için kullanılır.
 - Bir kullanıcının birinci grubu passwd dosyasında ikincil grubu ise group dosyasında tutulur.
+
+# 7-Grup Silme
+- `sudo delgroup aile` => grubu siler.
