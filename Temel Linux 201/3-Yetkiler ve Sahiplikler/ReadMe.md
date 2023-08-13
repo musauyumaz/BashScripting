@@ -8,3 +8,12 @@
 - Dosya/uygulama/dizin izinlerinde 1. üç izin kullanıcının sahip olduğu yetkiler.
 - Dosya/uygulama/dizin izinlerinde 2. üç izin grubun sahip olduğu yetkiler.
 - Dosya/uygulama/dizin izinlerinde 3. üç izin diğer kullanıcıların sahip olduğu yetkiler.
+
+# 2-Root Yetkileri ile Çalışma
+- Sistemdeki en yüksek yetkili kullanıcı olan root'tur.
+
+- root tüm erişim izinlerine sahiptir. Tüm dosyaları okuyabilir/değiştirebilir/çalıştırabilir.
+
+- Tüm izinleri değiştirebilir.
+
+- Tüm sahiplikleri değiştirebilir.
