@@ -25,3 +25,8 @@
 - `ll` => `ls -al` komutunun kısaltılmış halidir.
 
 - 3.Sütunda o dosyanın sahibi kullnıcıyı 4.Sütunda ise o dosyanın sahibi grubu görebilirsiniz.
+
+# 4-Dosya ve Dizinlerin Sahibini Değiştirme
+- `sudo chown gelecegiyazanlar dosya1` => dosyanın sahibini böyle değiştirebiliriz.
+- 
+- `sudo chgrp gelecegiyazanlar dosya4` => dosyanın grubunu böyle değiştirebiliriz.
