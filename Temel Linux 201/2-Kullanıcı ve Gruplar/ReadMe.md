@@ -44,3 +44,7 @@
 - Linux'ta yeni bir kullanıcı eklemek silmek parola değiştirmek gibi kullanıcı işlemlerini yapmak için yönetici yetkilerine sahip olmamız gerekir.
 - `sudo useradd gelecegiyazanlar` => kullanıcı oluşturmak için kullanılır.
 - `sudo adduser serhat` => kullanıcı oluşturmak için kullanılır.
+
+# 5-Kullanıcı Silme
+- `sudo deluser serhat` => kullanıcıyı siler.
+- `sudo userdel serhat` => kullanıcıyı siler.
