@@ -23,3 +23,20 @@
 - `wc` => kaç satır kaç kelime olduğunu getirir.
 - `grep` => arama yapmamızı sağlar.
 - `head` => baştan satırları getirir.
+
+# 5- Alias Kullanımı
+- Alias, takma ad demektir. Linux terminal ortamında uzun komutları, parametreleri ve argümanları beraber kullandığımız durumlar olabilir. Sık kullandığımız komutları tekrar tekrar yazmak yerine, onlara kısa adlar vererek kullanmak için alias’tan faydalanırız.
+
+## Alias Tanımlamak
+- Terminal ortamında yeni bir alias tanımlamak için alias kisaad=‘komut --parametre arg’ komutunu kullanırız. Örneğin, apt-get update komutuna “guncelle” takma adını tanımlayarak çalıştırmak için şu komutu kullanırız:
+    * `alias guncelle=’apt-get update’`
+    * Bu işlemden sonra terminalde guncelle yazarak her seferinde apt-get update komutunun çalışmasını sağlayabiliriz.
+
+## Alias Tanımını İptal Etmek
+- Tanımlı bir alias tanımını iptal etmek için kullancağımız komut unalias komutudur. Örneğin, yukarıdaki guncelle alias tanımını kaldırmak için aşağıdaki komutu kullanırız:
+  *  `unalias guncelle`
+
+## Alias’ları Kalıcı Hale Getirmek
+
+- Yukarıdaki komutları kullanarak tanımladığımız alias’lar, aktif oturum boyunca aktif olacak, ancak sistem yeniden başlatıldığında aktif olmayacaktır. Bu değişkenlerin kalıcı olmasını sağlamak için her sistem açılışında yeniden tanımlanmasını sağlamamız gerekir. Kalıcı olmasını istediğimiz alias tanımlarını aşağıdaki komutla düzenlediğimiz dosyaya eklemeliyiz:
+  * `cat ~/.bashrc`
