@@ -10,3 +10,13 @@
 - Genel Amaçlı Kullanıcılar
   * Kendilerine veya gruplarına tanımlı yetkileri kullanırlar.
   * Ev dizinleri /home dizini altında bulunur.  
+
+# 2-Grup Nedir?
+- Linux'ta birden çok kullanıcının bir arada bulunduğu yapılara grup denir.
+- Birden fazla kullanıcın bir arada bulunduğu erişim gruplarıdır.
+- Sistem kaynaklar dosya ve uygulamalara birden fazla kullanıcının erişmesi için grup kavramı gerekli ve önemlidir.
+- Grupların isimleri ve id'leri bulunur.
+- GID = Grup ID
+- Bir kullanıcı birden fazla gruba üye olabilir.
+- Grup üyelikleri /etc/group altına tanımlanır.
+- 
