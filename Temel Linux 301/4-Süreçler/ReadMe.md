@@ -14,3 +14,7 @@
 - `ps -ef` => sistem üzerinde çalışan tüm process'leri listeler.
 - `ps -au musa` => sistem üzerinde çalışan belirtilen kullanıcıya ait process'leri listeler.
 - `ps -auroot` => sistem üzerinde çalışan root kullanıcısına ait process'leri listeler.
+
+# 3-Süreçlerin Canlı Takibi
+- `ps -aux` => sistem üzerinde çalışan tüm process'leri listeler.
+- `htop` => süreçleri anlık olarak takip edebiliriz.
