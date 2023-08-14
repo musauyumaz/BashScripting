@@ -18,3 +18,9 @@
 # 3-Süreçlerin Canlı Takibi
 - `ps -aux` => sistem üzerinde çalışan tüm process'leri listeler.
 - `htop` => süreçleri anlık olarak takip edebiliriz.
+
+# 4-Süreçlerin Sonlandırılması
+- `kill 4172` => process id'li process'i sonlandırır. 
+- CTRL + SHIFT + T => yeni bir terminal sekmesi açar.
+- Programlar sabit process id'lere sahip değillerdir. Her çalıştıklarında farklı process id'lere sahip olabilirler.
+- `sudo kill 4441` => yönetici yetkileriyle programı sonlandırma.
