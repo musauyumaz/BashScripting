@@ -24,3 +24,10 @@
 - CTRL + SHIFT + T => yeni bir terminal sekmesi açar.
 - Programlar sabit process id'lere sahip değillerdir. Her çalıştıklarında farklı process id'lere sahip olabilirler.
 - `sudo kill 4441` => yönetici yetkileriyle programı sonlandırma.
+
+# 5-Süreç Sonlandırma Çeşitleri
+- `kill -l` => komutu hangi parametrelerle kullanabiliriz onu görürürz.
+- `kill -9 3388` => Process aniden durur.
+- `kill -15 3388` => Process aniden durur.
+- `pkill firefox` => Çalışan tüm firefox process'leri sonlanacaktır. `pkill` otomatik olarak process id'leri tespit eder.
+- `htop` ile de arayüz üzerinden process'leri sonlandırabiliriz.
