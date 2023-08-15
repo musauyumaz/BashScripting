@@ -31,3 +31,10 @@
 - `kill -15 3388` => Process aniden durur.
 - `pkill firefox` => Çalışan tüm firefox process'leri sonlanacaktır. `pkill` otomatik olarak process id'leri tespit eder.
 - `htop` ile de arayüz üzerinden process'leri sonlandırabiliriz.
+
+# 6-Arkaplan Süreç Yönetimi
+- `firefox &` => Bir süreci arkaplanda çalışmasını sağlar.
+- `nohup firefox &` komutu ile yazdığımız komutlar terminale bağlı olmadan çalışır ve terminal kapandıktan sonra da arka planda çalışmaya devam eder.
+- CTRL + Z komutu ile uygulamayı arkaplana alabiliriz.
+- `bg` komutu arka planda çalışan işleri görmemizi sağlar.
+- `disown -h %1` komutu terminali kapattıktan sonra uygulamanın devam etmesini sağlar.
