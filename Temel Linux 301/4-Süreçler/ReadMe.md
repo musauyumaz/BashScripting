@@ -38,3 +38,21 @@
 - CTRL + Z komutu ile uygulamayı arkaplana alabiliriz.
 - `bg` komutu arka planda çalışan işleri görmemizi sağlar.
 - `disown -h %1` komutu terminali kapattıktan sonra uygulamanın devam etmesini sağlar.
+
+# 7-Linux'ta Servis Kavramı
+- Linux'ta arka planda gerektiğinde kullanılmak için sürekli çalışan uygulamalara servis deriz.
+
+- Sistem tarafından başlatılır. Arka planda sürekli çalışıyorlar. Tabi istediğimiz zaman durdurabiliyoruz yeniden başlatabiliyoruz.
+
+- Arka planda kendine verilen işleri yapmak için sürekli çalışan programlar servis olarak adlandırılabilir.
+
+- Sistem tarafından başlatılır.
+- Yönetilebilir
+- Eklenebilir/Silinebilir.
+
+- Örnekler;
+  * Kullanıcı Yönetimi => Login olma servisi
+  * Kayıt tutma(Logging) => çalışan programların arka planda kayıt tutmasını sağlama bir servistir.
+  * Web Servisleri => Sunucularda PHP MySQL veritabanı servisleri.
+  * Uzaktan Erişim Servileri => SSH VNC RWP
+  * Sanallaştırma Servisleri
