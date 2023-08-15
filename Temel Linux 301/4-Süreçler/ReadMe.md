@@ -56,3 +56,10 @@
   * Web Servisleri => Sunucularda PHP MySQL veritabanı servisleri.
   * Uzaktan Erişim Servileri => SSH VNC RWP
   * Sanallaştırma Servisleri
+
+# 8-Servisleri Görüntüleme
+- `systemctl` programı Linux'ta sistem üzerindeki servisleri yönetmemizi sağlar.
+- `list-units --type service` komutu sistem üzerindeki servis ünitelerini görüntülemizi sağlar.
+- `list-units --type service --state running` komutu sistem üzerindeki yalnızca o an çalışan servis ünitelerini görüntülemizi sağlar.
+- `systemctl list-units --type service` => servisleri listeler.
+- `systemctl status cron.service` => service hakkında bize bilgi verir.
