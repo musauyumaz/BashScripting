@@ -63,3 +63,8 @@
 - `list-units --type service --state running` komutu sistem üzerindeki yalnızca o an çalışan servis ünitelerini görüntülemizi sağlar.
 - `systemctl list-units --type service` => servisleri listeler.
 - `systemctl status cron.service` => service hakkında bize bilgi verir.
+
+# 9-Servis Yönetimi
+- `sudo systemctl stop NetworkManager.service` => servisi sonlandırır.
+- `sudo systemctl start NetworkManager.service` => servisi başlatır.
+- `sudo systemctl restart NetworkManager.service` => servisi restart eder/yeniden başlatır.
