@@ -31,3 +31,9 @@
 
 # 8-DNS Kavramı
 - DNS(Domain Name System) => İsimleri IP adreslerine çevirmek için kullanılan bir sistemdir.
+
+# 9-DNS Sorguları Yapmak
+- `nslookup` komutu DNS sorguları için kullanılır.
+- `nslookup turkcell.com.tr` 
+- `nslookup -query=mx turkcell.com.tr` => mail sunucularını gösterir.
+- `nslookup -query=ns turkcell.com.tr` => isim sunucularını gösterir.
