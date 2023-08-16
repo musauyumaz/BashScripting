@@ -4,3 +4,8 @@
 # 2-Bağlantı Bilgilerini Öğrenme
 - `ip addr show` veya `ip a` => bilgisayarımızın internete bağlandığı adres bilgilerini öğrenebiliriz.
 - `hostname -I` => IP adresini verir.
+
+# 3-Bağlantı Testi ve Ping Kavramı
+- ping: Ağ üzerinden paket gönderip, geri gelmesini bekleyerek yanıt süresini ölçer.
+- `ping turkcell.com.tr` => Turkcell sitesine bağlantıdaki yanıt süresini ölçer.
+- `ping -c 5 turkcell.com.tr` => Hedef adrese kaç adet ping atacağımızı belirleriz.
