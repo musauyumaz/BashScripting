@@ -9,3 +9,9 @@
 - ping: Ağ üzerinden paket gönderip, geri gelmesini bekleyerek yanıt süresini ölçer.
 - `ping turkcell.com.tr` => Turkcell sitesine bağlantıdaki yanıt süresini ölçer.
 - `ping -c 5 turkcell.com.tr` => Hedef adrese kaç adet ping atacağımızı belirleriz.
+
+# 4-Ağ Trafiğini İzleme
+- tcpdump programı, bilgisayarınızdan giden ve gelen tcp paketlerini gösterir.
+- `sudo tcpdump -v` tcp protokolü üzerinden geçen bütün paketleri görüntülememizi sağlar.
+- iftop programı bağlandığınız sunucuları ve gelen/giden paket istatistiklerini gösterir.
+- `sudo iftop` => Makinemizin bağlantı kurduğu ağ trafiğini özet bir şekilde paketlerin ayrıntılarını görmeden görebiliyoruz.
