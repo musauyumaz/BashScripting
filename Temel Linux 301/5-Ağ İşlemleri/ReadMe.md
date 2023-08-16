@@ -18,3 +18,6 @@
 
 # 5-Wireshark ile Ağ Trafiği İzleme
 - `sudo wireshark` => wireshark ile ağ adresini takip edebilirsiniz.
+
+# 6-Dosya İndirme
+- `wget https://gelecegiyazanlar.turkcell.com.tr` => dosya indirmeyi sağlar.
