@@ -15,3 +15,6 @@
 - `sudo tcpdump -v` tcp protokolü üzerinden geçen bütün paketleri görüntülememizi sağlar.
 - iftop programı bağlandığınız sunucuları ve gelen/giden paket istatistiklerini gösterir.
 - `sudo iftop` => Makinemizin bağlantı kurduğu ağ trafiğini özet bir şekilde paketlerin ayrıntılarını görmeden görebiliyoruz.
+
+# 5-Wireshark ile Ağ Trafiği İzleme
+- `sudo wireshark` => wireshark ile ağ adresini takip edebilirsiniz.
