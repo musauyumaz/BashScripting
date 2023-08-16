@@ -21,3 +21,10 @@
 
 # 6-Dosya İndirme
 - `wget https://gelecegiyazanlar.turkcell.com.tr` => dosya indirmeyi sağlar.
+
+# 7-SSH ile Güvenli Bağlantı
+- SSH güvenli bağlantı sunucusudur ve bilgisayarımızı uzaktan yönetmemizi sağlar.
+- `sudo systemctl enable ssh` => ssh'ı aktif eder
+- `sudo systemctl status ssh` => ssh'ın durumunu söyler.
+- `sudo systemctl disable ssh` => siz bir daha çalıştırıncaya kadar durur
+- `sudo systemctl stop ssh` => ssh hizmeti durur.
