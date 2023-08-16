@@ -28,3 +28,6 @@
 - `sudo systemctl status ssh` => ssh'ın durumunu söyler.
 - `sudo systemctl disable ssh` => siz bir daha çalıştırıncaya kadar durur
 - `sudo systemctl stop ssh` => ssh hizmeti durur.
+
+# 8-DNS Kavramı
+- DNS(Domain Name System) => İsimleri IP adreslerine çevirmek için kullanılan bir sistemdir.
