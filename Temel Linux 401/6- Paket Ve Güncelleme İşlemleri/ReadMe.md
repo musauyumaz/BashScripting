@@ -32,3 +32,9 @@
 - `sudo apt remove vlc` => paketi kaldırır.
 - `sudo apt autoremove` => Kullanılmayan ihtiyaç duyulmayan paketler listelenir.
 - `sudo apt purge wireshark` => paketi ve onun konfigürasyon ayarını kaldırır.
+
+# 7-Paket Dosyasından Paket Kurulumu
+- `dpkg -i coinst_1.9.3-3build2_amd64.deb ` => sistemde yüklü paketi kurar.
+- `dpkg -l` => sistemde yüklü olan paketleri listeler.
+- `dpkg -r coinst` => paketi kaldırır.
+- `sudo !!` => üstteki sorguyu başa sudo ekleyerek çalıştır demektir.
