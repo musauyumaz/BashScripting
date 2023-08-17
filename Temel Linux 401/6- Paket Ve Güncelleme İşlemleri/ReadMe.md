@@ -22,3 +22,8 @@
 # 4-Paket Yöneticisi ile Paket Kurulumu
 - `sudo apt install vlc` paketi bilgisayara kurar.
 - `sudo apt search image manipulation` => sana anahtar kelimelerin geçtiği paketleri listeler.
+
+# 5-Paket Yöneticisi ile Paket Güncelleme
+- `sudo apt list --upgradable` => güncellenebilir, yükseltilebilir paketleri listeler.
+- `sudo apt install apt` => paketi günceller/yükseltir.
+- `sudo apt upgrade` => tüm paketleri günceller/yükseltir.
