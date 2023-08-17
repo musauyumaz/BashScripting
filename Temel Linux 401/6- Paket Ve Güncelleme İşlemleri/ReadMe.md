@@ -27,3 +27,8 @@
 - `sudo apt list --upgradable` => güncellenebilir, yükseltilebilir paketleri listeler.
 - `sudo apt install apt` => paketi günceller/yükseltir.
 - `sudo apt upgrade` => tüm paketleri günceller/yükseltir.
+
+# 6-Paket Yöneticisi ile Paket Kaldırma
+- `sudo apt remove vlc` => paketi kaldırır.
+- `sudo apt autoremove` => Kullanılmayan ihtiyaç duyulmayan paketler listelenir.
+- `sudo apt purge wireshark` => paketi ve onun konfigürasyon ayarını kaldırır.
