@@ -13,3 +13,8 @@
      + `apt remove wireshark`
   * `upgrade` kurulu paketleri günceller. 
   
+
+# 3-Paket Yöneticisinin Önbelleğini Güncellemek
+- apt paket yöneticisi çalışırken paket listesini, versiyonlarını ve yükleme bilgilerini önbelleğinde tutar.
+- `cat /etc/apt/sources.list`  paket listeleri burada tutulur.
+- `sudo apt update` => paketleri günceller.
