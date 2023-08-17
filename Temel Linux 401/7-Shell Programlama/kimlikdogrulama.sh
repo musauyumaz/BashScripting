@@ -24,3 +24,4 @@ while [[ $giris ]]; do
 	((sayac++))
 done
 
+bash tarih.sh

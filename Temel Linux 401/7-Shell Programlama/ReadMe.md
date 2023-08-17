@@ -57,3 +57,15 @@ while [[ $giris ]]; do
 	((sayac++))
 done
 ```
+
+# 5-Başka Bir Shell Programını Çağırma 
+```bash
+#!/bin/bash
+
+echo "Merhaba"
+date 
+echo
+cal
+
+echo "Görüşmek Üzere"
+```
