@@ -18,3 +18,7 @@
 - apt paket yöneticisi çalışırken paket listesini, versiyonlarını ve yükleme bilgilerini önbelleğinde tutar.
 - `cat /etc/apt/sources.list`  paket listeleri burada tutulur.
 - `sudo apt update` => paketleri günceller.
+
+# 4-Paket Yöneticisi ile Paket Kurulumu
+- `sudo apt install vlc` paketi bilgisayara kurar.
+- `sudo apt search image manipulation` => sana anahtar kelimelerin geçtiği paketleri listeler.
