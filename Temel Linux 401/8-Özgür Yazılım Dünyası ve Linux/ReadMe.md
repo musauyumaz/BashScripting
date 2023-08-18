@@ -50,3 +50,6 @@
 
 # 5-XFCE Masaüstü Kurulumu
 - `sudo apt-get install xfce4-session xfce4-goodies`
+
+# 6-Mate Masaüstü Kurulumu
+- `sudo apt install ubuntu-mate-desktop`
