@@ -24,3 +24,26 @@
 # 3-Dağıtımların Özellikleri ve Lisansları
 - Dağıtım lisansları, dağıtımları ne amaçla, hangi koşullarda kullanabileceğimizi belirtir. Bazı dağıtımlar ücretsiz, bazıları ücretlidir. Linux dünyasında onlarca farklı dağıtım, topluluklar ve şirketler tarafından geliştirilmektedir.
 - [Linux Dağıtımları]("https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions")
+
+# 4-Desktop Environment Nedir?
+- Çoğu Linux dağıtımı farklı masaüstü ortamlarını destekler ve kullanıcıların görünümü dilediği gibi özelleştirmesine izin verir.
+- İşletim sistemi üzerine kurulan ortak bir kullanıcı ara yüz yazılımıdır.
+- Desktop Environment'a Graphical shell'de(Grafik Kabuğu) denilebilir. 
+- Çeşitleri;
+  * Unity
+  * MATE
+  * Vinnamon
+  * GNOME
+  * KDE
+  * XCFE 
+
+- Birçok yazılımın birleşmesinden oluşur.
+  * Masaüstü
+  * Klasörler 
+  * İkonlar
+  * Pencereler
+  * Düzenleme Yazılımları
+    + Metin 
+    + Görsel
+  * Diğer Araçlar ve Widget'lar 
+- Sadece ikonlar pencereler değil, bir çok yaygın programı da içerirler.
