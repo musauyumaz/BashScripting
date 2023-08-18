@@ -47,3 +47,6 @@
     + Görsel
   * Diğer Araçlar ve Widget'lar 
 - Sadece ikonlar pencereler değil, bir çok yaygın programı da içerirler.
+
+# 5-XFCE Masaüstü Kurulumu
+- `sudo apt-get install xfce4-session xfce4-goodies`
