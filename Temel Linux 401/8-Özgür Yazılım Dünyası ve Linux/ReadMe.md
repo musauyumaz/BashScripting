@@ -53,3 +53,22 @@
 
 # 6-Mate Masaüstü Kurulumu
 - `sudo apt install ubuntu-mate-desktop`
+
+# 7-Pardus Nedir?
+- Pardus, Türkiye'de geliştirilen bir Linux dağıtımıdır.
+- Pardus Debian GNU/Linux temelli Özgür ve Açık Kaynak kodlu bir işletim sistemidir.
+- TÜBİTAK ULAKBİM bünyesinde geliştirilmektedir.
+- Kullanım Alanları
+  * Eğitim 
+  * Sağlık
+  * Kamu Yönetimi
+  * Belediyeler
+  * Güvenlik
+  * Günlük Kullanım 
+- Tercih Edilme Sebepleri
+  * Özgür ve ücretsiz
+  * Hızlı
+  * Güvenilir
+  * Kolay Kullanım
+  * Canlı Sürümü  
+  * Özelleştirilebilir
